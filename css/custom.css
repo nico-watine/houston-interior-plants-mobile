@@ -97,58 +97,55 @@
 .custom-block figure {
   margin: 0; }
 
-.ff-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important; }
-
-.font-weight-100,
-.font-weight-ultralight {
+.custom-block .font-weight-100,
+.custom-block .font-weight-ultralight {
   font-weight: 100 !important; }
 
-.font-weight-200,
-.font-weight-thin {
+.custom-block .font-weight-200,
+.custom-block .font-weight-thin {
   font-weight: 200 !important; }
 
-.font-weight-300,
-.font-weight-light {
+.custom-block .font-weight-300,
+.custom-block .font-weight-light {
   font-weight: 300 !important; }
 
-.font-weight-400,
-.font-weight-regular,
-.font-weight-normal {
+.custom-block .font-weight-400,
+.custom-block .font-weight-regular,
+.custom-block .font-weight-normal {
   font-weight: 400 !important; }
 
-.font-weight-500,
-.font-weight-medium {
+.custom-block .font-weight-500,
+.custom-block .font-weight-medium {
   font-weight: 500 !important; }
 
-.font-weight-600,
-.font-weight-semibold {
+.custom-block .font-weight-600,
+.custom-block .font-weight-semibold {
   font-weight: 600 !important; }
 
-.font-weight-700,
-.font-weight-bold {
+.custom-block .font-weight-700,
+.custom-block .font-weight-bold {
   font-weight: 700 !important; }
 
-.font-weight-800,
-.font-weight-heavy {
+.custom-block .font-weight-800,
+.custom-block .font-weight-heavy {
   font-weight: 800 !important; }
 
-.font-weight-900,
-.font-weight-black {
+.custom-block .font-weight-900,
+.custom-block .font-weight-black {
   font-weight: 900 !important; }
 
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
+.custom-block h1,
+.custom-block .h1,
+.custom-block h2,
+.custom-block .h2,
+.custom-block h3,
+.custom-block .h3,
+.custom-block h4,
+.custom-block .h4,
+.custom-block h5,
+.custom-block .h5,
+.custom-block h6,
+.custom-block .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -156,72 +153,54 @@ h6,
   line-height: 1.2;
   margin-bottom: 0.5rem;
   text-rendering: optimizeLegibility; }
-  h1 small,
-  .h1 small,
-  h2 small,
-  .h2 small,
-  h3 small,
-  .h3 small,
-  h4 small,
-  .h4 small,
-  h5 small,
-  .h5 small,
-  h6 small,
-  .h6 small {
+  .custom-block h1 small,
+  .custom-block .h1 small,
+  .custom-block h2 small,
+  .custom-block .h2 small,
+  .custom-block h3 small,
+  .custom-block .h3 small,
+  .custom-block h4 small,
+  .custom-block .h4 small,
+  .custom-block h5 small,
+  .custom-block .h5 small,
+  .custom-block h6 small,
+  .custom-block .h6 small {
     line-height: 0;
     color: #8a8a8a; }
 
-hr {
-  box-sizing: content-box;
-  /* [normalize] Add the correct box sizing in Firefox. */
-  height: 0;
-  /* [normalize] Add the correct box sizing in Firefox. */
-  overflow: visible;
-  /* [normalize] Show the overflow in Edge and IE. */
-  clear: both;
-  /* [foundation] to ensure nothing is beside it when using clears on surrounding content */
-  margin: 1em auto;
-  /* [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom */
-  border: 0;
-  /* [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l) */
-  border-bottom: 1px solid #cacaca;
-  /* [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp] */
-  /* [boostrap] optionally can use this method which sets the color based on its background */
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */ }
-
-ul,
-ol,
-dl {
+.custom-block ul,
+.custom-block ol,
+.custom-block dl {
   margin-bottom: 1rem;
   list-style-position: outside;
   line-height: 1.6; }
 
-li {
+.custom-block li {
   font-size: inherit; }
 
-ul {
+.custom-block ul {
   margin-left: 1.25rem;
   list-style-type: disc; }
 
-ol {
+.custom-block ol {
   margin-left: 1.25rem; }
 
-ul ul,
-ol ul,
-ul ol,
-ol ol {
+.custom-block ul ul,
+.custom-block ol ul,
+.custom-block ul ol,
+.custom-block ol ol {
   margin-left: 1.25rem;
   margin-bottom: 0; }
 
-dl {
+.custom-block dl {
   margin-bottom: 1rem; }
 
-dl dt {
+.custom-block dl dt {
   margin-bottom: .3rem;
   font-weight: bold; }
 
-ul.no-bullet,
-ol.no-bullet {
+.custom-block ul.no-bullet,
+.custom-block ol.no-bullet {
   margin-left: 0;
   list-style: none; }
 
@@ -305,45 +284,45 @@ ol.no-bullet {
   background-color: transparent !important;
   border: 0 !important; }
 
-h1,
-.h1 {
+.custom-block h1,
+.custom-block .h1 {
   font-size: 2rem; }
 
-h2,
-.h2 {
+.custom-block h2,
+.custom-block .h2 {
   font-size: 1.625rem; }
 
-h3,
-.h3 {
+.custom-block h3,
+.custom-block .h3 {
   font-size: 1.375rem; }
 
-h4,
-.h4 {
+.custom-block h4,
+.custom-block .h4 {
   font-size: 1.125rem; }
 
-h5,
-.h5 {
+.custom-block h5,
+.custom-block .h5 {
   font-size: 1rem; }
 
-h6,
-.h6 {
+.custom-block h6,
+.custom-block .h6 {
   font-size: 0.875rem; }
 
 @media only screen and (min-width : 40em) {
-  h1,
-  .h1 {
+  .custom-block h1,
+  .custom-block .h1 {
     font-size: 3.125rem; }
-  h2,
-  .h2 {
+  .custom-block h2,
+  .custom-block .h2 {
     font-size: 2.375rem; }
-  h3,
-  .h3 {
+  .custom-block h3,
+  .custom-block .h3 {
     font-size: 1.75rem; }
-  h4,
-  .h4 {
+  .custom-block h4,
+  .custom-block .h4 {
     font-size: 1.3125rem; } }
 
-p {
+.custom-block p {
   margin-bottom: 1rem;
   font-size: inherit;
   line-height: 1.6;
