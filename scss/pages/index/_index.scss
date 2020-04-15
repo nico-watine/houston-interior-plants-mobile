@@ -30,6 +30,8 @@
 
 	.prose-wrap {
 		padding: 16px;
+		max-width: rem-calc(420);
+		margin: 0 auto;
 
 		.paragraph {
 			font-size: rem-calc(14);

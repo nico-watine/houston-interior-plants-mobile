@@ -1952,7 +1952,9 @@
       .row.quarantine-cozy-banner .heading-wrap .headline {
         font-size: 2.125rem; } }
 .row.quarantine-cozy-banner .prose-wrap {
-  padding: 16px; }
+  padding: 16px;
+  max-width: 26.25rem;
+  margin: 0 auto; }
   .row.quarantine-cozy-banner .prose-wrap .paragraph {
     font-size: 0.875rem;
     font-family: Arial;
