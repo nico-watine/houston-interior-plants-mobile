@@ -37,9 +37,14 @@
   line-height: 1.5; }
 
 .custom-block a {
-  color: #00e;
+  color: #1779ba;
+  text-decoration: none;
   background-color: transparent;
   line-height: inherit; }
+  .custom-block a a:hover,
+  .custom-block a a:focus,
+  .custom-block a a:active {
+    color: #1468a0; }
 
 .custom-block b,
 .custom-block strong {
@@ -183,14 +188,6 @@ hr {
   /* [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp] */
   /* [boostrap] optionally can use this method which sets the color based on its background */
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */ }
-
-a {
-  color: #1779ba;
-  text-decoration: none; }
-
-a:hover,
-a:focus {
-  color: #1468a0; }
 
 ul,
 ol,
