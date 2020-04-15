@@ -772,6 +772,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/webdav": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/webdav",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -2877,7 +2883,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/storage/framework/sessions,node_modules,_logs,logs,log,.idea,_cache,cache,sketch",
+	"skippedFoldersString": "/storage/framework/sessions, node_modules, _logs, logs, log, .idea, _cache, cache, sketch, /webdav",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
