@@ -1955,10 +1955,10 @@
   padding: 16px;
   max-width: 26.25rem;
   margin: 0 auto; }
-  .row.quarantine-cozy-banner .prose-wrap .paragraph {
+  .row.quarantine-cozy-banner .prose-wrap p {
     font-size: 0.875rem;
     font-family: Arial;
     line-height: 1.4; }
     @media (min-width: 21.85rem) {
-      .row.quarantine-cozy-banner .prose-wrap .paragraph {
+      .row.quarantine-cozy-banner .prose-wrap p {
         font-size: 1rem; } }
