@@ -104,6 +104,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/elements/2-grid/_foundation-6-float-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_foundation-6-float-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/elements/_elements.scss": {
 		"aP": 0,
 		"bl": 0,
