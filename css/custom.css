@@ -89,36 +89,6 @@
   border: 0;
   border-bottom: 1px solid #cacaca; }
 
-.button {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 0 1rem 0;
-  padding: .85em 1em;
-  border: 1px solid transparent;
-  border-radius: 0;
-  transition: background-color .25s ease-out, color .25s ease-out;
-  font-family: inherit;
-  font-size: .9rem;
-  -webkit-appearance: none;
-  line-height: 1;
-  text-align: center;
-  cursor: pointer;
-  background-color: #1779ba;
-  color: #fefefe; }
-
-.button:hover,
-.button:focus {
-  background-color: #14679e;
-  color: #fefefe; }
-
-code {
-  padding: .125rem .3125rem .0625rem;
-  border: 1px solid #cacaca;
-  background-color: #e6e6e6;
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
-  font-weight: normal;
-  color: #0a0a0a; }
-
 figure {
   margin: 0; }
 
