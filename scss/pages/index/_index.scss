@@ -30,7 +30,7 @@
 
 
 	img.hero-img {
-		@include media('>39.875rem') {
+		@include media('>39.875rem') { //>639px
 			min-height: 250px !important;
 		}
 	}
@@ -39,6 +39,12 @@
 		padding: rem-calc(16 16 0);
 		max-width: rem-calc(420);
 		margin: 0 auto;
+
+		@include media('>39.875rem') { //>639px
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
 
 		p {
 			font-size: rem-calc(14);
@@ -55,5 +61,10 @@
 		display: none;
 		visibility: hidden;
 		opacity: 0;
+
+		@include media('>39.875rem') { //>639px
+			display: block;
+			min-height: 250px !important;
+		}
 	}
 }
