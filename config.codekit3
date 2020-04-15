@@ -772,6 +772,14 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/WebDAV/mobile_template/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/WebDAV/mobile_template/.gitkeep",
+		"oF": 0
 		}
 	},
 "hooks": [
