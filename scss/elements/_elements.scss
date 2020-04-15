@@ -1,6 +1,8 @@
-// All scss aside from "pages" / var
+// All scss aside from "pages" / functions / print-styles / var
 // --------------------------------------------------------- //
-@import 'site-components/_site-components.scss';
-@import 'page-blocks/_page-blocks.scss';
-@import 'panels/_panels.scss';
+@import '1-reset/_reset.scss';
+@import '2-global/_global.scss';
+@import 'typography/_typography.scss';
 @import 'utilities/_utilities.scss';
+@import 'page-blocks/_page-blocks.scss';
+@import 'site-components/_site-components.scss';
