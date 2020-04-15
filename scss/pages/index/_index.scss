@@ -7,7 +7,7 @@
 		z-index: 3;
 		text-align: center;
 
-		@include media('>21.75rem') { //>348px
+		@include media('>21.75rem') { //>349px
 			text-align: right;
 		}
 
@@ -22,7 +22,7 @@
 			display: inline-block;
 			padding: rem-calc(4);
 
-			@include media('>21.75rem') { //>348px
+			@include media('>21.75rem') { //>349px
 				font-size: rem-calc(34);
 			}
 		}
@@ -32,9 +32,13 @@
 		padding: 16px;
 
 		.paragraph {
-			font-size: 18px;
+			font-size: rem-calc(14);
 			font-family: Arial;
 			line-height: 1.4;
+
+			@include media('>21.75rem') { //>349px
+				font-size: rem-calc(16);
+			}
 		}
 	}
 }

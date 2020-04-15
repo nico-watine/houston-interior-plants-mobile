@@ -1954,10 +1954,12 @@
 .row.quarantine-cozy-banner .prose-wrap {
   padding: 16px; }
   .row.quarantine-cozy-banner .prose-wrap .paragraph {
-    font-size: 18px;
+    font-size: 0.875rem;
     font-family: Arial;
     line-height: 1.4; }
-
+    @media (min-width: 21.85rem) {
+      .row.quarantine-cozy-banner .prose-wrap .paragraph {
+        font-size: 1rem; } }
 .row.product-category-blocks .product-category-link {
   margin-bottom: 20px; }
   .row.product-category-blocks .product-category-link .unit-link {
