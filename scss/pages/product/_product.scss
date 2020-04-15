@@ -1,0 +1,26 @@
+.PrimaryProductDetails {
+	border-color: #000;
+	padding-top: 20px;
+
+	.ProductMain {
+		padding-left: 10px;
+	}
+}
+
+// .ProductDescription {
+// 	p {
+// 		font-size: 14px;
+// 		line-height: 1.5;
+// 	}
+// }
+
+.ProductDescription {
+	h3 {
+		margin: 0;
+		text-transform: none;
+		font-weight: bold;
+		letter-spacing: normal;
+		font-family: $body-font;
+		font-size: 18px;
+	}
+}

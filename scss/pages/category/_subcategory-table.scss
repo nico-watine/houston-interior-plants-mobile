@@ -1,0 +1,75 @@
+table.shop-for-plants,
+table.shop-for-pots {
+	@extend .plain;
+
+	tbody {
+		tr {
+			td {
+				text-align: center;
+
+				a {
+					box-shadow: $z-1;
+					font-size: 15px;
+					background: #f4f4f4;
+					padding: 10px;
+					display: inline-block;
+					line-height: 1.5;
+					border: 1px solid #f4f4f4;
+
+					span {
+						display: block;
+						font-size: 18px;
+					}
+
+					img {
+						border: 1px solid $primary-green;
+						display: block;
+						margin: 0 auto 10px;
+					}
+
+					&:hover {
+						background: #fff;
+						color: #000;
+						box-shadow: $z-2;
+						border: 1px solid $primary-green;
+
+						span {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+table.shop-for-plants#shop-for-plants,
+table.shop-for-plants#by-plant-size,
+table.shop-for-plants#by-light-level,
+table.shop-for-pots#shop-for-pots {
+	tbody {
+		tr {
+			td {
+				width: 320px;
+
+				a {
+					width: 245px;
+				}
+			}
+		}
+	}
+}
+
+table.shop-for-plants#by-plant-type {
+	tbody {
+		tr {
+			td {
+				width: 240px;
+
+				a {
+					width: 200px;
+				}
+			}
+		}
+	}
+}

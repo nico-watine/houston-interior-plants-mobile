@@ -1,0 +1,42 @@
+.plant-contact-banner {
+	background: #fff url('https://cdn10.bigcommerce.com/s-3q3m3ghk/product_images/uploaded_images/spath-header-detail.jpg?t=1583903201') center center/cover no-repeat;
+	border-radius: 0 0 4px 4px;
+	height: 130px;
+	margin-top: 130px;
+	padding: 15px 80px 0;
+
+	.prose {
+		padding: 12px 22px;
+		background-color: #fff;
+		float: right;
+		border-radius: 4px;
+		box-shadow: $z-1;
+
+		h4 {
+			font-size: 16px;
+			text-transform: none;
+			font-weight: bold;
+		}
+
+		p,
+		a {
+			font-size: 14px;
+			line-height: 1.5;
+			margin-bottom: 0;
+		}
+
+		a.standard {
+			color: $link-blue;
+			text-decoration: none;
+
+			&:hover {
+				color: $link-blue-hover;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.plant-contact-banner.tall {
+	padding: 40px 80px;
+}

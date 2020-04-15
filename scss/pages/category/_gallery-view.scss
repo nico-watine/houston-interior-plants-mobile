@@ -1,0 +1,39 @@
+.Content {
+	.ProductList {
+		li {
+			margin-left: 15px !important;
+
+			.ProductImage {
+				padding: 6px 6px 10px;
+
+				img {
+					width: 100%;
+					border: 1px solid $primary-green;
+				}
+			}
+
+			&:hover {
+				.ProductImage {
+					background: #f7f7f7;
+					border: 1px solid $primary-green;
+
+					img {
+						border: 1px solid #fff;
+						box-shadow: $z-1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.ProductList li .ProductActionAdd a:hover,
+#CategoryContent .ProductActionAdd a:hover {
+	background: $primary-green !important;
+	color: #fff !important;
+}
+
+.ProductPriceWrap {
+	box-shadow: $z-1;
+}

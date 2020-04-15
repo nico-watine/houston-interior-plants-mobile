@@ -1,0 +1,34 @@
+.Breadcrumb {
+	color: #000;
+}
+
+
+.Breadcrumb a {
+	color: #000;
+
+	&:hover {
+		color: $link-blue;
+	}
+}
+
+
+#ProductDescription a {
+	color: $primary-green;
+	text-decoration: underline;
+
+	&:hover {
+		color: $link-blue;
+		text-decoration: none;
+	}
+}
+
+
+a.standard {
+	color: $primary-green;
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+		color: $link-blue;
+	}
+}

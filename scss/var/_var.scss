@@ -1,0 +1,37 @@
+
+// ----------------------------------------------------
+// |            box-shadow variable values            |
+// ----------------------------------------------------
+$z-1: 0 1px 4px 0 rgba(0,0,0,.37);
+$z-2: 0 2px 2px 0 rgba(0,0,0,.20), 0 6px 10px 0 rgba(0,0,0,.30);
+$z-3: 0 11px 7px 0 rgba(0,0,0,.19), 0 13px 25px 0 rgba(0,0,0,.30);
+$z-4: 0 14px 12px 0 rgba(0,0,0,.17), 0 20px 40px 0 rgba(0,0,0,.30);
+$z-5: 0 17px 17px 0 rgba(0,0,0,.15), 0 27px 55px 0 rgba(0,0,0,.30);
+
+
+// ------------------------------------
+// |            Typography            |
+// ------------------------------------
+// Sizing---------
+$p: 16px;
+$h1: 60px;
+$h2: 42px;
+$h3: 29px;
+$h4: 23px;
+$h5: 16px;
+$h6: 14px;
+// Font-Family---------------------------------------------
+$header-font: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+// --------------------------------
+// |            Colors            |
+// --------------------------------
+$primary-green: #569300;
+$green: #569300;
+$link-blue: #1779BA;
+$link-blue-hover: #1468A0;
+$lime-green: #a2cc43;
+$brown: #56400e;
+$gray: #f4f4f4;

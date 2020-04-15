@@ -1,0 +1,51 @@
+.customSidebar {
+	#usa-grown {
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 20px;
+
+		img {
+			width: 80px;
+			height: auto;
+		}
+	}
+}
+
+.customSidebar {
+	width: 215px;
+	float: left;
+	padding-top: 20px;
+}
+
+.customSidebar-panel {
+	background: #f9f9f9;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	box-shadow: $z-1;
+	padding: 8px;
+
+	.label {
+		font-size: 20px;
+		line-height: 1.4;
+		margin-bottom: 12px;
+		font-weight: bold;
+	}
+
+	a {
+		font-size: 14px;
+		color: $link-blue;
+		margin-bottom: 10px;
+		display: inline-block;
+
+		&:hover {
+			color: $link-blue-hover;
+			text-decoration: underline;
+		}
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 1.4;
+		margin-bottom: 12px;
+	}
+}

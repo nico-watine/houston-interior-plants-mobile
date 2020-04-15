@@ -1,0 +1,16 @@
+.PostBody {
+	p {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	a {
+		color: $primary-green;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+			color: #2199e8;
+		}
+	}
+}

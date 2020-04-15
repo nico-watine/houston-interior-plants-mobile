@@ -1,0 +1,66 @@
+.button {
+	padding: 5px 10px !important;
+	text-decoration: none !important;
+	text-transform: uppercase !important;
+	background: #569300;
+	border-radius: 5px !important;
+	box-shadow: $z-1;
+	letter-spacing: 1px;
+	color: #fff;
+	font-family: $header-font;
+	border: 2px solid #569300;
+
+	&:hover {
+		background: #fff;
+		box-shadow: $z-2;
+		color: #000 !important;
+	}
+}
+
+.small.button {
+	@extend .button;
+	font-size: 14px;
+}
+
+
+.Submit input,
+.ProductList li .ProductActionAdd a,
+.QuickViewBtn,
+#bottom_payment_button,
+.ExpressCheckoutContent input[type='submit'],
+.btn,
+.btn-secondary {
+	background: #569300 !important;
+	color: #fff !important;
+
+	&:hover {
+		background: #d4d4d4 !important;
+		color: #000 !important;
+	}
+}
+
+a.CartRemoveLink {
+	color: #569300;
+
+	&:hover {
+		color: red;
+	}
+}
+
+a.CustomizeItemLink,
+.KeepShopping a {
+	color: #569300;
+
+	&:hover {
+		color: #6e6e6e;
+	}
+}
+
+.CartContents .ProductName a {
+	font-weight: bold;
+	color: #569300;
+
+	&:hover {
+		color: #6e6e6e;
+	}
+}
