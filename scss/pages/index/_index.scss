@@ -28,6 +28,13 @@
 		}
 	}
 
+
+	img.hero-img {
+		@include media('>39.875rem') {
+			min-height: 250px !important;
+		}
+	}
+
 	.prose-wrap {
 		padding: rem-calc(16 16 0);
 		max-width: rem-calc(420);
@@ -42,5 +49,11 @@
 				font-size: rem-calc(16);
 			}
 		}
+	}
+
+	img.height-matcher {
+		display: none;
+		visibility: hidden;
+		opacity: 0;
 	}
 }
