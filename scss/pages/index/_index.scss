@@ -13,7 +13,7 @@
 
 		.headline {
 			color: #fff;
-			text-shadow: 0 0 30px #000;
+			text-shadow: 0 0 rem-calc(30) #000;
 			font-size: rem-calc(23);
 			line-height: 1.2;
 			font-weight: bold;
@@ -29,7 +29,7 @@
 	}
 
 	.prose-wrap {
-		padding: 16px;
+		padding: rem-calc(16);
 		max-width: rem-calc(420);
 		margin: 0 auto;
 

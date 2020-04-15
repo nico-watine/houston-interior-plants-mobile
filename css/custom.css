@@ -1940,7 +1940,7 @@
       text-align: right; } }
   .row.quarantine-cozy-banner .heading-wrap .headline {
     color: #fff;
-    text-shadow: 0 0 30px #000;
+    text-shadow: 0 0 1.875rem #000;
     font-size: 1.4375rem;
     line-height: 1.2;
     font-weight: bold;
