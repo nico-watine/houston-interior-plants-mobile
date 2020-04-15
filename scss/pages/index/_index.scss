@@ -3,18 +3,24 @@
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
-		padding: 10px;
 		width: 100%;
 		z-index: 3;
-		text-align: right;
+		text-align: center;
+
+		// text-align: right;
 
 		.headline {
 			color: #fff;
 			text-shadow: 0 0 30px #000;
-			font-size: 36px;
+			font-size: rem-calc(23);
 			line-height: 1.2;
 			font-weight: bold;
 			letter-spacing: 0;
+			background: rgba(51,51,51,.50);
+			display: inline-block;
+			padding: rem-calc(4);
+
+			// font-size: 36px;
 		}
 	}
 
