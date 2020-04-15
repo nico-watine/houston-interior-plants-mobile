@@ -773,12 +773,10 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/WebDAV/mobile_template/.gitkeep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/WebDAV/mobile_template/.gitkeep",
+	"/webdav": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/webdav",
 		"oF": 0
 		}
 	},
@@ -2885,7 +2883,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/storage/framework/sessions,node_modules,_logs,logs,log,.idea,_cache,cache,sketch",
+	"skippedFoldersString": "/storage/framework/sessions, node_modules, _logs, logs, log, .idea, _cache, cache, sketch, /webdav",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
