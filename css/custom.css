@@ -1935,6 +1935,9 @@
   width: 100%;
   z-index: 3;
   text-align: center; }
+  @media (min-width: 350px) {
+    .row.quarantine-cozy-banner .heading-wrap {
+      text-align: right; } }
   .row.quarantine-cozy-banner .heading-wrap .headline {
     color: #fff;
     text-shadow: 0 0 30px #000;
@@ -1945,7 +1948,9 @@
     background: rgba(51, 51, 51, 0.5);
     display: inline-block;
     padding: 0.25rem; }
-
+    @media (min-width: 350px) {
+      .row.quarantine-cozy-banner .heading-wrap .headline {
+        font-size: 2.125rem; } }
 .row.quarantine-cozy-banner .prose-wrap {
   padding: 16px; }
   .row.quarantine-cozy-banner .prose-wrap .paragraph {

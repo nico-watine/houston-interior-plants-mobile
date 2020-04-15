@@ -7,7 +7,9 @@
 		z-index: 3;
 		text-align: center;
 
-		// text-align: right;
+		@include media('>349px') {
+			text-align: right;
+		}
 
 		.headline {
 			color: #fff;
@@ -20,7 +22,9 @@
 			display: inline-block;
 			padding: rem-calc(4);
 
-			// font-size: 36px;
+			@include media('>349px') {
+				font-size: rem-calc(34);
+			}
 		}
 	}
 
