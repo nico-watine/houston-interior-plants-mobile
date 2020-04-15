@@ -1006,6 +1006,10 @@
 .custom-block figure {
   margin: 0; }
 
+.ff-montserrat {
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase !important; }
+
 .custom-block .font-weight-100,
 .custom-block .font-weight-ultralight {
   font-weight: 100 !important; }
