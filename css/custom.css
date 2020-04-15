@@ -1,15 +1,7 @@
 .custom-block {
   box-sizing: border-box;
   font-size: 100%;
-  line-height: 1.15;
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%; }
-  .custom-block *,
-  .custom-block *::before,
-  .custom-block *::after {
-    box-sizing: inherit; }
-
-.custom-block {
+  -webkit-text-size-adjust: 100%;
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -19,6 +11,10 @@
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  .custom-block *,
+  .custom-block *::before,
+  .custom-block *::after {
+    box-sizing: inherit; }
 
 .custom-block h1,
 .custom-block h2,

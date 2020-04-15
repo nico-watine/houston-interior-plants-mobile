@@ -2,8 +2,6 @@
 	// html {
 		box-sizing: border-box; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 		font-size: 100%;
-		line-height: 1.15; // [normalize] Correct the line height in all browsers
-		font-family: sans-serif; // [Opinionated] So <p> and <h#> have a standard font to inherit
 		-webkit-text-size-adjust: 100%; // [normalize] Prevent adjustments of font size after orientation changes in iOS
 
 		*,
@@ -12,13 +10,9 @@
 			box-sizing: inherit; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 		}
 	// }
-}
 
-
-
-.custom-block {
 	// body{
-		margin: 0; // [normalize] Remove the margin in all browsers.
+		margin: 0;
 		padding: 0;
 		background-color: #fff;
 
