@@ -64,14 +64,16 @@ $separator-margin-top: rem-calc(16) !default;
 // |            CSS Utility Classes            |
 // ---------------------------------------------
 
-.separator-center {
-	@include separator(center);
-}
+.custom-block {
+	.separator-center {
+		@include separator(center);
+	}
 
-.separator-left {
-	@include separator(left);
-}
+	.separator-left {
+		@include separator(left);
+	}
 
-.separator-right {
-	@include separator(right);
+	.separator-right {
+		@include separator(right);
+	}
 }

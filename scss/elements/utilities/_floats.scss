@@ -1,21 +1,22 @@
 // -------------------------------------------------------
 // |            Float Classes from Foundation            |
 // -------------------------------------------------------
+.custom-block {
+	.float-left {
+		float: left;
+	}
 
-.float-left {
-	float: left;
-}
+	.float-right {
+		float: right;
+	}
 
-.float-right {
-	float: right;
-}
+	.float-center {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
 
-.float-center {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.float-none {
-	float: none;
+	.float-none {
+		float: none;
+	}
 }
