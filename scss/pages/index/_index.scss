@@ -7,7 +7,7 @@
 		z-index: 3;
 		text-align: center;
 
-		@include media('>21.75rem') { //>349px
+		@include media('>23.625rem') { //>379px
 			text-align: right;
 		}
 
@@ -22,8 +22,8 @@
 			display: inline-block;
 			padding: rem-calc(4);
 
-			@include media('>21.75rem') { //>349px
-				font-size: rem-calc(34);
+			@include media('>23.625rem') { //>379px
+				font-size: rem-calc(36);
 			}
 		}
 	}
