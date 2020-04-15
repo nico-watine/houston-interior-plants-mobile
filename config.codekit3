@@ -25,6 +25,17 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/_ignores/codekit-icon.png": {
+		"ft": 32768,
+		"iS": 22084,
+		"oA": 1,
+		"oAP": "/_ignores/codekit-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_ignores/houston-interior-plants-mobile.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
@@ -763,8 +774,8 @@
 	"creationDate": 608657214.81418502,
 	"displayValue": "houston-interior-plants-mobile",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-azure",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "/_ignores/codekit-icon.png",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
