@@ -13,7 +13,12 @@
   margin: 0;
   padding: 0;
   background-color: #fff;
-  color: #000; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .custom-block h1,
 .custom-block h2,
@@ -87,15 +92,6 @@
   margin: 1em auto;
   border: 0;
   border-bottom: 1px solid #cacaca; }
-
-body {
-  background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #0a0a0a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
 
 .button {
   display: inline-block;
