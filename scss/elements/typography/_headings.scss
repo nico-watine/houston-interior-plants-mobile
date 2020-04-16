@@ -14,12 +14,13 @@
 		// Styles
 		font-family: $h-font-family;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		color: $h-color; // #0a0a0a
 
 		// Metrics
 		line-height: 1.2;
 		margin-bottom: rem-calc(8);
+		letter-spacing: rem-calc(-1);
 
 		// Legibility
 		text-rendering: optimizeLegibility; // [https://css-tricks.com/almanac/properties/t/text-rendering/] The browser emphasizes legibility over rendering speed and geometric precision. This enables the use of special kerning and optional ligature information that may be contained in the font file for certain fonts.
