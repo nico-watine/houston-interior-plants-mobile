@@ -86,15 +86,14 @@
 		font-weight: bold;
 	}
 
-	a {
-		font-size: 14px;
-		display: inline-block;
-		margin-bottom: 6px;
+	// a {
+	// 	font-size: 14px;
+	// 	margin-bottom: 6px;
 
-		&:hover {
-			text-decoration: underline;
-		}
-	}
+	// 	&:hover {
+	// 		text-decoration: underline;
+	// 	}
+	// }
 
 	p {
 		margin-bottom: rem-calc(8);
