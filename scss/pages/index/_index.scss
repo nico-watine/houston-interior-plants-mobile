@@ -48,7 +48,6 @@
 
 		p {
 			font-size: rem-calc(14);
-			font-family: Arial;
 			line-height: 1.4;
 
 			@include media('>21.75rem') { //>349px
