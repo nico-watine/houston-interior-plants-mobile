@@ -79,13 +79,18 @@
 	margin: 0 auto rem-calc(20);
 	max-width: rem-calc(300);
 
-	// @include media('>27.375rem') {
 	@include media('>23.125rem') {
 		//>440px
 		max-width: rem-calc(360);
 	}
 
-	@media #{$medium} {
+	@include media('>40rem') {
+		//>640px
+		min-height: rem-calc(160);
+	}
+
+	@include media('>47.75rem') {
+		//>764px
 		min-height: rem-calc(135);
 	}
 
@@ -101,7 +106,6 @@
 		font-size: rem-calc(14);
 		line-height: 1.4;
 
-		// @include media('>27.375rem') {
 		@include media('>23.125rem') {
 			//>440px
 			font-size: rem-calc(16);
