@@ -85,6 +85,10 @@
 		max-width: rem-calc(360);
 	}
 
+	@media #{$medium} {
+		min-height: rem-calc(135);
+	}
+
 	.label {
 		font-size: rem-calc(20);
 		line-height: 1.4;
