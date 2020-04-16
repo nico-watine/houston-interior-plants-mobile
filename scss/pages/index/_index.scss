@@ -79,11 +79,27 @@
 	margin: 0 auto rem-calc(20);
 	max-width: rem-calc(300);
 
+	@include media('>27.375rem') {
+		//>440px
+		max-width: rem-calc(360);
+	}
+
 	.label {
 		font-size: rem-calc(20);
 		line-height: 1.4;
 		margin: 0 0 rem-calc(8);
 		font-weight: bold;
+	}
+
+	p {
+		margin-bottom: rem-calc(8);
+		font-size: rem-calc(14);
+		line-height: 1.4;
+
+		@include media('>27.375rem') {
+			//>440px
+			font-size: rem-calc(16);
+		}
 	}
 
 	// a {
@@ -94,10 +110,4 @@
 	// 		text-decoration: underline;
 	// 	}
 	// }
-
-	p {
-		margin-bottom: rem-calc(8);
-		font-size: 14px;
-		line-height: 1.4;
-	}
 }
