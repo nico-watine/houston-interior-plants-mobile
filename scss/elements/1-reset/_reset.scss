@@ -57,10 +57,11 @@
 		background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
 		line-height: inherit;
 
-		a:hover,
-		a:focus,
-		a:active {
+		&:hover,
+		&:focus,
+		&:active {
 			color: #1468a0;
+			text-decoration: underline;
 		}
 
 		img {
