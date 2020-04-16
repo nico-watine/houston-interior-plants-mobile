@@ -72,17 +72,17 @@
 }
 
 .info-card {
-	padding: 12px;
-	border-radius: 6px;
+	padding: rem-calc(12);
+	border-radius: rem-calc(6);
 	background: #f1f1f1;
 	box-shadow: $z-1;
 	margin: 0 auto rem-calc(20);
-	max-width: 300px;
+	max-width: rem-calc(300);
 
 	.label {
-		font-size: 20px;
+		font-size: rem-calc(20);
 		line-height: 1.4;
-		margin: 0 0 8px;
+		margin: 0 0 rem-calc(8);
 		font-weight: bold;
 	}
 
