@@ -46,7 +46,8 @@
 		padding: 0;
 		margin-top: 0; // [bootstrap-reboot]
 		margin-bottom: 1rem;
-		font-size: inherit;
+		// font-size: inherit;
+		font-size: rem-calc(16);
 		line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
 		text-rendering: optimizeLegibility;
 	}
