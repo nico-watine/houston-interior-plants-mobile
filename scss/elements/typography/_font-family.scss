@@ -2,3 +2,12 @@
 	font-family: 'Montserrat', sans-serif !important;
 	// text-transform: uppercase !important;
 }
+
+.header-font {
+	font-family: $h-font-family !important;
+}
+
+.body-font {
+	font-family: $p-font-family !important;
+	letter-spacing: 0 !important;
+}
