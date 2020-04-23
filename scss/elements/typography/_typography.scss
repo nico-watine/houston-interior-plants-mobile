@@ -64,3 +64,14 @@
 	// 	}
 	// }
 }
+
+.custom-block {
+	h2 {
+		color: $green;
+		@extend .body-font;
+		letter-spacing: 0;
+		text-transform: none;
+		margin: 0 0 8px !important;
+		padding: 8px 0 0 0 !important;
+	}
+}
